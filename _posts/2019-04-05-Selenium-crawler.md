@@ -5,7 +5,7 @@ tags: [python,selenium,PhantomJS]
 date: 2019-04-05 20:20:11 +0200
 read_time: false
 ---
-<p>참조링크: https://beomi.github.io/gb-crawling/posts/2017-02-27-HowToMakeWebCrawler-With-Selenium.html </p>
+<p>참조링크: <https://beomi.github.io/gb-crawling/posts/2017-02-27-HowToMakeWebCrawler-With-Selenium.html> </p>
 
 ## Selenium이란?
 <p>주로 웹앱을 테스트하는데 이용하는 프레임워크다. webdriver라는 API를 통해 운영체제에 설치된 브라우저를 제어하게 된다.</p>
