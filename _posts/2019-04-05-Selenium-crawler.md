@@ -1,5 +1,5 @@
 ---
-layout: post
+#layout: post 
 title: "Selenium을 이용한 크롤러 만들기"
 categories: [python]
 tags: [python,selenium,PhantomJS]
