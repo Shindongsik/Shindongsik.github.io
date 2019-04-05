@@ -19,8 +19,7 @@ pip install selenium
 ## PhantomJS 웹드라이버
 <p>웹테스트를 위해 나온 headless browser이다. 우리가 사용하는 인터넷브라우저 처럼 보여지는 부분은 없다.
 selenium이 사용하는 api를 제공하는 역활을 한다.</p>
-<p>[phantomJS 다운로드링크](http://phantomjs.org/download.html){: target="_blank" }</p>
-
+<p>[phantomJS 다운로드](http://phantomjs.org/download.html){: target="_blank"}</p>
 
 ## selenium으로 웹페이지 가져오기
 <p>webdriver를 import 해준다.</p>
