@@ -2,7 +2,7 @@
 title: "Telegram 챗봇을 연결해보자"
 categories: [python]
 tags: [python,django,crawling]
-date: 2019-04-05 23:17:00 +0200
+date: 2019-04-06 01:55:00 +0200
 read_time: false
 ---
 [참조링크](https://beomi.github.io/gb-crawling/posts/2017-04-20-HowToMakeWebCrawler-Notice-with-Telegram.html){: target="_blank" }
