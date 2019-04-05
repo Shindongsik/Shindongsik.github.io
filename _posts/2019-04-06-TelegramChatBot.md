@@ -20,9 +20,11 @@ read_time: false
 
 ## python-telegram-bot 설치
 <p>pip 설치한다.</p>
+<p>
 {% highlight python %}
 pip install python-telegram-bot
 {% endhighlight %}
+</p>
 
 ## 코드에 텔레그램 봇 추가
 <p>
@@ -34,8 +36,10 @@ bot = telegram.Bot(token='xxxxxxx:aaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 #만약 IndexError 에러가 난다면 봇에게 메시지를 아무거나 보내고 다시 테스트
 chat_id = bot.getUpdates()[-1].message.chat.id
 {% endhighlight %}
+</p>
 
 ## 크롤링 해서 첫번째글 비교하고 메시지 전송
+<p>
 {% highlight %}
 # 파일의 위치
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
