@@ -5,7 +5,7 @@ tags: [python,django,crawling]
 date: 2019-04-06 01:55:00 +0200
 read_time: false
 ---
-<p><a href='https://beomi.github.io/gb-crawling/posts/2017-04-20-HowToMakeWebCrawler-Notice-with-Telegram.html' target='_blank'>참조링크</a></p>
+<p><a href='https://beomi.github.io/gb-crawling/posts/2017-04-20-HowToMakeWebCrawler-Notice-with-Telegram.html' target='_blank'>참조문서</a></p>
 
 ## 무엇을 할것인가?
 1. 텔레그램 봇을 만든다.
@@ -14,8 +14,8 @@ read_time: false
 4. 크론텝으로 주기적으로 작동하게 한다.
 
 ## 텔레그램 봇 만들기
-<p><a href='https://blog.psangwoo.com/coding/2016/12/08/python-telegram-bot-1.html' target='_blank'>참조링크</a></p>
-<p>"참조링크"의 내용을 차근차근 따라하며, API token을 발급받는 부분까지 진행한다.</p>
+<p><a href='https://blog.psangwoo.com/coding/2016/12/08/python-telegram-bot-1.html' target='_blank'>참조문서</a></p>
+<p>"참조문서"의 내용을 차근차근 따라하며, API token을 발급받는 부분까지 진행한다.</p>
 > 토큰은 xxxxx:aaaaaaaaaaaaaaaaaaaaaaaaa 의 형태이다.
 
 ## python-telegram-bot 설치

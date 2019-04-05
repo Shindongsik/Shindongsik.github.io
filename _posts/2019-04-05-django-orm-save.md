@@ -5,7 +5,7 @@ tags: [python,django,crawling]
 date: 2019-04-05 23:17:00 +0200
 read_time: false
 ---
-<p>참조링크: <https://beomi.github.io/gb-crawling/posts/2017-03-01-HowToMakeWebCrawler-Save-with-Django.html> </p>
+<p><a href='https://beomi.github.io/gb-crawling/posts/2017-03-01-HowToMakeWebCrawler-Save-with-Django.html' target='_blank'>참조문서</a></p>
 
 ## Django 환경 불러오기
 <p>장고환경을 불러오기 위해, 코드의 상단에 추가합니다.</p>
