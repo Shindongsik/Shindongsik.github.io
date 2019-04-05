@@ -3,6 +3,7 @@ title: "Selenium을 이용한 크롤러 만들기"
 categories: [python]
 tags: [python,selenium,PhantomJS]
 date: 2019-04-05 20:20:11
+read_time: false
 ---
 
 ## Selenium이란?
