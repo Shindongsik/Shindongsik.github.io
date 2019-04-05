@@ -1,7 +1,7 @@
 ---
 title: "Django로 db에 저장하기"
 categories: [python]
-tags: [python,selenium,PhantomJS]
+tags: [python,django,crawling]
 date: 2019-04-05 23:17:00
 read_time: false
 ---
