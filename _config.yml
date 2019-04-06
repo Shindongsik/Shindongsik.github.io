@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "맨날삽질"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "빈둥대고 있다."
   location         : "서울"
   email            :
