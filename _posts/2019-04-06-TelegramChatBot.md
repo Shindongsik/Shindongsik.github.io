@@ -66,3 +66,26 @@ with open(os.path.join(BASE_DIR, 'latest.txt'), 'r+', encoding='utf8') as f_read
             f_write.close()
 {% endhighlight %}
 </p>
+
+## 크론탭 스케줄러에 등록
+<p>로케일 설정</p>
+<p>
+{% highlight python %}
+sudo locale-gen ko_KR.UTF-8
+{% endhighlight %}
+</p>
+<p>crontab에 10분 마다 실행하도록 설정</p>
+<p>
+{% highlight python %}
+crontab -e
+
+#크론탭 에디터에서 등록
+*/10 * * * * /usr/bin/python3 /home/ubuntu/django/telegram-chat-bot.py
+#저장하고 나온다
+{% endhighlight %}
+</p>
+> 10분마다 프로그램을 실행하고 메시지를 보내는 것을 확인할수 있다.
+
+>크론텝의 * * * * * 는 각각 분(0-59) 시(0-23) 일(1-31) 월(1-12) 요일(0-7) 이다.
+
+>예시: 0 */1 * * * (1시간 마다. 00분에 실행)
