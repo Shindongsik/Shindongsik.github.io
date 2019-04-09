@@ -5,7 +5,7 @@ tags: [python,django,crawling]
 date: 2019-04-09 13:55:00 +0200
 read_time: false
 ---
-[참고문서](https://beomi.github.io/gb-crawling/posts/2017-07-05-HowToMakeWebCrawler-with-Multiprocess.html)
+[참고문서](https://beomi.github.io/gb-crawling/posts/2017-07-05-HowToMakeWebCrawler-with-Multiprocess.html){:target='_blank'}
 
 ## 멀티프로세스?
 <p>간단하게 말해서, 멀티프로세스란 프로그램을 여러개 실행하는 것입니다.</p>
@@ -93,7 +93,7 @@ def get_content(link):
 
 if __name__ == '__main__':
     start_time = time.time()
-    
+
     #멀티 프로세스 사용
     pool = Pool(processes=4)    #4개의 프로세스 사용
     pool.map(get_content, get_links())
