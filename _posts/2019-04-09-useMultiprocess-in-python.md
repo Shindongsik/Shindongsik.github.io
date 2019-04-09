@@ -61,7 +61,6 @@ if __name__ == '__main__':
 <p>파이썬의 multiprocessing 패키지에서 Pool 을 import 해 줍니다.</p>
 <p>
 {% highlight python %}
-# clien_market_parser.py
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -96,7 +95,7 @@ if __name__ == '__main__':
 
     #멀티 프로세스 사용
     pool = Pool(processes=4)    #4개의 프로세스 사용
-    pool.map(get_content, get_links())
+    pool.map(get_content, get_links())  #map(실행메소드, 파라미터)
     pool.close()    #리소스 낭비 방지
     pool.join()     #작업완료 대기
 
