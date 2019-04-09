@@ -47,4 +47,4 @@ sudo yum update -y
 sudo yum install -y httpd24 php70 mysql56-server php70-mysqlnd
 {% endhighlight %}
 
->예시는 최신 버전이 아닐수 있다. 각자 알맞  버전을 선택하자.    
+>예시는 최신 버전이 아닐수 있다. 각자 알맞은  버전을 선택하자.    
