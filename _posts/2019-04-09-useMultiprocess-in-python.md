@@ -1,7 +1,7 @@
 ---
 title: "크롤링에 멀티프로세스를 이용해 보자"
 categories: [python]
-tags: [python,django,crawling]
+tags: [python,multiprocess,crawling]
 date: 2019-04-09 13:55:00 +0200
 read_time: false
 ---
