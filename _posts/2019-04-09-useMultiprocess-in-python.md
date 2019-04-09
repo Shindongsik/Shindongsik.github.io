@@ -4,6 +4,7 @@ categories: [python]
 tags: [python,multiprocess,crawling]
 date: 2019-04-09 13:55:00 +0200
 read_time: false
+release_date: true
 ---
 [참고문서](https://beomi.github.io/gb-crawling/posts/2017-07-05-HowToMakeWebCrawler-with-Multiprocess.html){:target='_blank'}
 

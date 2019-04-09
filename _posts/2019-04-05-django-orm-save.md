@@ -1,5 +1,5 @@
 ---
-title: "Django로 db에 저장하기"
+title: "크롤링 결과값 Django로 db에 저장하기"
 categories: [python]
 tags: [python,django,crawling]
 date: 2019-04-05 23:17:00 +0200
