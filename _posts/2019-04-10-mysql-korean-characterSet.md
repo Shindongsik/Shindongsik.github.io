@@ -36,17 +36,20 @@ character-set-server = utf8mb4
 {% highlight python %}
 sudo mysql -u root -p
 {% endhighlight %}
->처음엔 비번 설정이 안되있기 때문에, 비번 엔터를 눌러준다.
+>처음엔 비번설정이 안되있기 때문에, 비번입력칸에 그냥 엔터를 눌러줍니다.
 
 {% highlight mysql %}
+#생성된 db 리스트
 show databsaes;
+#mysql db를 사용
 use mysql;
+#비번 설정 쿼리
 alter user 'root'@'localhost' identified with mysql_native_password by '비밀번호';
+#권한 적용
 flush privileges;
-
 #사용할 db생성
 CREATE DATABASE my_db DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
+#쿼리콘솔에서 나간다
 exit
 {% endhighlight %}
 
@@ -55,4 +58,4 @@ exit
 sudo service mysql restart
 {% endhighlight %}
 
->문자셋 설정을 나중에 하면, 난처한 일이 많이 발생합니다. 설치하자 마자 설정하는 것을 권장합니다.
+>문자셋 설정을 나중에 하면, 난처한 일이 많이 발생합니다. mysql을 설치하자 마자 설정하는 것을 권장합니다.
